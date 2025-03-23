@@ -1,4 +1,3 @@
-```markdown
 # Student Performance Clustering and Recommendation System
 
 This is a **Streamlit web application** that analyzes student performance, clusters students into performance-based groups (Low, Medium, High), and provides personalized course recommendations and adaptive learning suggestions.
