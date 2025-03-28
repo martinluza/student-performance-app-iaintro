@@ -12,9 +12,6 @@ This is a **Streamlit web application** that analyzes student performance, clust
 3. **Adaptive Learning Suggestions**:
    - Provides personalized learning suggestions to help students improve in areas where they are weak (e.g., quiz performance, engagement).
 
-4. **Course Material Analysis**:
-   - Uses the **RoBERTa model** to analyze course materials and generate embeddings for further analysis.
-
 ## Dataset
 The app uses the **Personalized Learning and Adaptive Education Dataset** from Kaggle. The dataset includes the following features:
 - `Student_ID`: Unique identifier for each student.
@@ -78,7 +75,6 @@ The app uses the **Personalized Learning and Adaptive Education Dataset** from K
 ## Example Usage
 1. Enter a valid student ID (e.g., `S00001`).
 2. View the student's performance level, recommended courses, and adaptive learning suggestions.
-3. Analyze course materials using the RoBERTa model.
 
 ## Screenshots
 ![App Screenshot 1](screenshots/screenshot1.png)
@@ -89,9 +85,4 @@ The app uses the **Personalized Learning and Adaptive Education Dataset** from K
 - **Scikit-learn**: For clustering (K-means) and nearest neighbors.
 - **Transformers**: For RoBERTa-based course material analysis.
 - **Pandas**: For data manipulation and analysis.
-
-## Future Enhancements
-- Add more advanced clustering techniques (e.g., DBSCAN, hierarchical clustering).
-- Integrate with a database for dynamic data loading.
-- Deploy the app on a cloud platform (e.g., Streamlit Sharing, Heroku).
 
